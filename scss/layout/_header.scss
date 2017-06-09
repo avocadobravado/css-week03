@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+body {
+  background-color: tint(red, 40%);
+  @include grid-column(12);
+}
+
+h1 {
+  @include grid-column(3);
+  text-align: justify;
+  border: 1px solid yellow;
+}
+
+p {
+  @include grid-column(12);
+}
