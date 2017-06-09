@@ -429,13 +429,19 @@ a {
     color: #222222;
     text-decoration: underline; }
 
+h1, h3, h5 {
+  font-family: 'Voltaire', sans-serif; }
+
+p, li {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
 /**
  * Basic typography style for copy text
  */
 body {
   background: url("../img/bg.gif");
   color: #333;
-  font-size: 1.25em;
+  font-size: 1.45em;
   letter-spacing: 0.015em; }
 
 /**
@@ -620,10 +626,9 @@ nav {
   .main .dropcap p::first-letter {
     color: #211226;
     float: left;
-    font-family: serif;
-    font-size: 90px;
+    font-family: 'Domine', serif;
+    font-size: 80px;
     line-height: 60px;
-    padding-top: 4px;
     padding-right: 18px; }
   .main .description-2 h5 {
     color: #211226; }
