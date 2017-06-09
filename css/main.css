@@ -469,6 +469,10 @@ nav {
     letter-spacing: 0.1em;
     font-size: 2em;
     line-height: 0.8125em; }
+    @media only screen and (max-width: 800px) {
+      nav h1 {
+        line-height: 1.25em;
+        margin: 0; } }
     nav h1:hover {
       cursor: pointer;
       -webkit-transition: 1s;
@@ -561,6 +565,12 @@ nav {
   margin-bottom: 3%;
   padding: 2%;
   border: 10px solid #238883; }
+  @media only screen and (max-width: 800px) {
+    .main {
+      width: calc(100% - 100px);
+      float: left;
+      margin-left: 50px;
+      border: none; } }
   .main .description h5, .main .description-2 h5 {
     width: 60%;
     margin: 0 auto;
@@ -571,6 +581,9 @@ nav {
     font-size: 1.75em;
     text-transform: uppercase;
     letter-spacing: 0.2em; }
+    @media only screen and (max-width: 800px) {
+      .main .description h5, .main .description-2 h5 {
+        display: none; } }
   .main .dropcap p::first-letter {
     color: #211226;
     float: left;
@@ -584,6 +597,11 @@ nav {
     width: calc(50% - 75px);
     float: left;
     margin-left: 50px; }
+    @media only screen and (max-width: 800px) {
+      .main .col {
+        width: calc(100% - 100px);
+        float: left;
+        margin-left: 50px; } }
 
 .main-gallery {
   background-color: #775102;
@@ -591,12 +609,22 @@ nav {
   float: left;
   margin-left: 50px;
   opacity: 0.7; }
+  @media only screen and (max-width: 800px) {
+    .main-gallery {
+      background-color: transparent; } }
   .main-gallery .main-image {
     width: 33.33%;
     float: right; }
+    @media only screen and (max-width: 958px) {
+      .main-gallery .main-image {
+        width: calc(100% - 100px);
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        float: none; } }
   .main-gallery img {
     width: 100%;
-    height: 375px;
     margin: 0;
     padding: 0; }
 
@@ -607,7 +635,10 @@ body {
   opacity: 0.9;
   clear: both;
   background-color: #279791;
-  height: 20vh; }
+  height: 30vh; }
+  @media only screen and (max-width: 800px) {
+    .footer {
+      height: 45vh; } }
   .footer .footer-content {
     width: calc(100% - 100px);
     float: left;
@@ -619,5 +650,10 @@ body {
     width: calc(50% - 75px);
     float: left;
     margin-left: 50px; }
+    @media only screen and (max-width: 800px) {
+      .footer p {
+        width: calc(100% - 100px);
+        float: left;
+        margin-left: 50px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -9,6 +9,10 @@
   margin-bottom: 3%;
   padding: 2%;
   border: 10px solid shade($accent-color, 10%);
+  @include small-breakpoint {
+  @include grid-column(12);
+  border: none;
+  }
   .description h5 {
     width: 60%;
     margin: 0 auto;
@@ -19,6 +23,9 @@
     font-size: em(28);
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    @include small-breakpoint {
+    display: none;
+    }
   }
   .dropcap p::first-letter {
     color: $bg-color;
@@ -36,6 +43,9 @@
   }
   .col {
     @include grid-column(6);
+    @include small-breakpoint {
+      @include grid-column(12);
+    }
   }
 }
 
@@ -43,14 +53,21 @@
   background-color: $primary-color;
   @include grid-column(12);
   @include opacity;
+  @include small-breakpoint {
+    background-color: transparent;
+  }
   .main-image {
     width: 33.33%;
     float: right;
-
+    @include medium-breakpoint {
+      @include grid-column(12);
+      margin-bottom: 20px;
+      margin-top: 20px;
+      float: none;
+    }
   }
   img {
     width: 100%;
-    height: 375px;
     margin: 0;
     padding: 0;
   }

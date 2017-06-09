@@ -11,7 +11,10 @@ body {
   @include opacity-secondary;
   clear: both;
   background-color: $accent-color;
-  height: 20vh;
+  height: 30vh;
+  @include small-breakpoint {
+  height: 45vh;
+  }
   .footer-content {
     @include grid-column(12);
     background-color: $bg-color;
@@ -20,5 +23,8 @@ body {
   }
   p {
     @include grid-column(6);
+    @include small-breakpoint {
+    @include grid-column(12);
+    }
   }
 }
