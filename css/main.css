@@ -528,14 +528,27 @@ nav {
 
 .hero {
   height: 75vh;
+  background: linear-gradient(paleturquoise, thistle), url("../img/hero.jpg") no-repeat;
+  background-blend-mode: hue;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../img/unsplash01.jpg");
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 85vh;
   position: relative;
   text-align: center;
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
+  .hero::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3.4375em;
+    position: absolute;
+    transform: skewY(-3deg);
+    background-color: white;
+    bottom: -25px; }
   .hero .hero-wrapper {
     margin-top: 20vh;
     width: calc(66.66667% - 83.33333px);
