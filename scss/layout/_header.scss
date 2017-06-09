@@ -3,30 +3,35 @@
 // -----------------------------------------------------------------------------
 
 nav {
-  width: 100%;
-  height: 90px;
+  height: em(75);
   background-color: thistle;
   color: white;
-  margin: 0;
-  border: 1px solid red;
+  overflow: hidden;;
+  @include align-text;
+
   .nav-wrapper {
+    border: 1px solid black;
+    background-color: inherit;
+    width: 50%;
+    height: em(100);
+    @include clearfix;
     @include grid-column(12);
-    border: 1px solid salmon;
   }
-  .nav-links li {
-    @include grid-column(1);
-    display: inline-block;
-    list-style-type: none;
+
+  ul {
+    @include grid-column(4);
+    border: 1px solid orange;
+  }
+
+ li {
+    @include li-styles;
     border: 1px solid red;
+    padding: 0;
+    margin: 0;
   }
-  .nav-title {
-    @include grid-column(1);
-  }
-  .nav-icons li {
-    @include grid-column(1);
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid green;
-    color: orange;
+
+   .nav-title {
+    @include grid-column(4);
+        border: 1px solid yellow;
   }
 }

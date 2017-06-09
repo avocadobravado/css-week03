@@ -492,35 +492,67 @@ body {
   width: 1px; }
 
 nav {
-  width: 100%;
-  height: 90px;
+  height: 4.6875em;
   background-color: thistle;
   color: white;
-  margin: 0;
-  border: 1px solid red; }
+  overflow: hidden;
+  text-align: center; }
   nav .nav-wrapper {
-    width: calc(100% - 40px);
+    border: 1px solid black;
+    background-color: inherit;
+    width: 50%;
+    height: 6.25em;
+    width: calc(100% - 100px);
     float: left;
-    margin-left: 20px;
-    border: 1px solid salmon; }
-  nav .nav-links li {
-    width: calc(8.33333% - 21.66667px);
+    margin-left: 50px; }
+    nav .nav-wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+  nav ul {
+    width: calc(33.33333% - 66.66667px);
     float: left;
-    margin-left: 20px;
+    margin-left: 50px;
+    border: 1px solid orange; }
+  nav li {
     display: inline-block;
     list-style-type: none;
-    border: 1px solid red; }
+    border: 1px solid red;
+    padding: 0;
+    margin: 0; }
   nav .nav-title {
-    width: calc(8.33333% - 21.66667px);
+    width: calc(33.33333% - 66.66667px);
     float: left;
-    margin-left: 20px; }
-  nav .nav-icons li {
-    width: calc(8.33333% - 21.66667px);
+    margin-left: 50px;
+    border: 1px solid yellow; }
+
+.hero {
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/unsplash01.jpg");
+  position: relative;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+  .hero .hero-wrapper {
+    margin-top: 20vh;
+    width: calc(66.66667% - 83.33333px);
     float: left;
-    margin-left: 20px;
-    display: inline-block;
-    list-style-type: none;
-    border: 1px solid green;
-    color: orange; }
+    margin-left: 50px;
+    margin-left: calc(16.66667% - 58.33333px + 100px);
+    border: 1px solid green; }
+  .hero h1 {
+    color: red;
+    margin-top: 0; }
+  .hero h3 {
+    color: green; }
+
+main {
+  width: calc(66.66667% - 83.33333px);
+  float: left;
+  margin-left: 50px;
+  margin-left: calc(16.66667% - 58.33333px + 100px); }
 
 /*# sourceMappingURL=main.css.map */

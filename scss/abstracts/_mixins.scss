@@ -2,6 +2,20 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
+// LI STYLES
+
+@mixin li-styles {
+  display: inline-block;
+  list-style-type: none;
+}
+
+// ALIGN TEXT
+
+@mixin align-text {
+  text-align: center;
+}
+
+
 /// Event wrapper
 /// @author Harry Roberts
 /// @param {Bool} $self [false] - Whether or not to include current selector
@@ -31,4 +45,3 @@
     @content;
   }
 }
-

@@ -1,0 +1,27 @@
+//Hero styles//
+
+.hero {
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/unsplash01.jpg');
+  position: relative;
+  // @include transform(skew(0deg, -2deg));
+  @include align-text;
+  margin: 0;
+  width: 100%;
+  .hero-wrapper {
+    margin-top: 20vh;
+    @include grid-column(8);
+    @include grid-push(2);
+    border: 1px solid green;
+  }
+  h1 {
+    color: red;
+    margin-top: 0;
+  }
+  h3 {
+    color: green;
+  }
+}

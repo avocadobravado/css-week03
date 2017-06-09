@@ -1,0 +1,6 @@
+// Main section styling
+
+main {
+  @include grid-column(8);
+  @include grid-push(2);
+}
