@@ -10,30 +10,42 @@ nav {
   color: white;
   overflow: hidden;;
   @include align-text;
-
   .nav-wrapper {
-    border: 1px solid black;
     background-color: inherit;
     width: 50%;
     height: em(100);
     @include clearfix;
     @include grid-column(12);
   }
-
+  h1 {
+    color: tint($accent-color, 20%);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: em(32);
+    line-height: em(10);
+    &:hover {
+      @include hover-effect;
+      color: tint($accent-color, 90%);
+    }
+  }
   ul {
     @include grid-column(4);
-    border: 1px solid orange;
   }
-
  li {
     @include li-styles;
-    border: 1px solid red;
+    color: $white;
     padding: 0;
     margin: 0;
-  }
-
+   &:hover {
+     @include hover-effect;
+      color:$secondary-color;
+      }
+    }
    .nav-title {
     @include grid-column(4);
-        border: 1px solid yellow;
+  }
+  .year {
+    color: $accent-color;
+    font-style: italic;
   }
 }

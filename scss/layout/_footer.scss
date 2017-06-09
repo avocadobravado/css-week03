@@ -8,13 +8,15 @@ body {
 }
 
 .footer {
+  @include opacity-secondary;
   clear: both;
-  border: 1px solid salmon;
-  background-color: red;
-  height: 60vh;
+  background-color: $accent-color;
+  height: 40vh;
   .footer-content {
     @include grid-column(12);
-    background-color: tomato;
+    background-color: $bg-color;
+    color: $white;
+    margin-top: 2%;
   }
   p {
     @include grid-column(6);

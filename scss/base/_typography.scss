@@ -1,7 +1,10 @@
 /**
  * Basic typography style for copy text
  */
-body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
-}
+
+ body {
+   background:  url('../img/bg.gif');
+   color: $black;
+   font-size: 1.25em;
+   letter-spacing: 0.015em;
+ }
