@@ -2,17 +2,31 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-body {
-  background-color: tint(red, 40%);
-  @include grid-column(12);
-}
-
-h1 {
-  @include grid-column(3);
-  text-align: justify;
-  border: 1px solid yellow;
-}
-
-p {
-  @include grid-column(12);
+nav {
+  width: 100%;
+  height: 90px;
+  background-color: thistle;
+  color: white;
+  margin: 0;
+  border: 1px solid red;
+  .nav-wrapper {
+    @include grid-column(12);
+    border: 1px solid salmon;
+  }
+  .nav-links li {
+    @include grid-column(1);
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid red;
+  }
+  .nav-title {
+    @include grid-column(1);
+  }
+  .nav-icons li {
+    @include grid-column(1);
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid green;
+    color: orange;
+  }
 }

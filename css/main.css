@@ -491,22 +491,36 @@ body {
   position: absolute;
   width: 1px; }
 
-body {
-  background-color: #ff6666;
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px; }
-
-h1 {
-  width: calc(25% - 25px);
-  float: left;
-  margin-left: 20px;
-  text-align: justify;
-  border: 1px solid yellow; }
-
-p {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px; }
+nav {
+  width: 100%;
+  height: 90px;
+  background-color: thistle;
+  color: white;
+  margin: 0;
+  border: 1px solid red; }
+  nav .nav-wrapper {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    border: 1px solid salmon; }
+  nav .nav-links li {
+    width: calc(8.33333% - 21.66667px);
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid red; }
+  nav .nav-title {
+    width: calc(8.33333% - 21.66667px);
+    float: left;
+    margin-left: 20px; }
+  nav .nav-icons li {
+    width: calc(8.33333% - 21.66667px);
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid green;
+    color: orange; }
 
 /*# sourceMappingURL=main.css.map */
