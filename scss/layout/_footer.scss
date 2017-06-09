@@ -11,7 +11,7 @@ body {
   @include opacity-secondary;
   clear: both;
   background-color: $accent-color;
-  height: 40vh;
+  height: 20vh;
   .footer-content {
     @include grid-column(12);
     background-color: $bg-color;

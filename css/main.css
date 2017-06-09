@@ -444,63 +444,8 @@ body {
   font-size: 1.45em;
   letter-spacing: 0.015em; }
 
-/**
- * Clear inner floats
- */
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: table; }
-
-/**
- * Main content containers
- * 1. Make the container full-width with a maximum width
- * 2. Center it in the viewport
- * 3. Leave some space on the edges, especially valuable on small screens
- */
-.container {
-  max-width: 1180px;
-  /* 1 */
-  margin-left: auto;
-  /* 2 */
-  margin-right: auto;
-  /* 2 */
-  padding-left: 20px;
-  /* 3 */
-  padding-right: 20px;
-  /* 3 */
-  width: 100%;
-  /* 1 */ }
-
-/**
- * Hide text while making it readable for screen readers
- * 1. Needed in WebKit-based browsers because of an implementation bug;
- *    See: https://code.google.com/p/chromium/issues/detail?id=457146
- */
-.hide-text {
-  overflow: hidden;
-  padding: 0;
-  /* 1 */
-  text-indent: 101%;
-  white-space: nowrap; }
-
-/**
- * Hide element while making it readable for screen readers
- * Shamelessly borrowed from HTML5Boilerplate:
- * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
- */
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
 nav {
-  height: 4.6875em;
+  height: 5.625em;
   background-color: #211226;
   border-bottom: 0.4375em solid #775102;
   box-shadow: 10px 10px 50px #c0a976;
@@ -552,7 +497,7 @@ nav {
       -o-transform-style: preserve-3d;
       transform-style: preserve-3d; }
   nav ul {
-    width: calc(33.33333% - 66.66667px);
+    width: calc(25% - 62.5px);
     float: left;
     margin-left: 50px; }
   nav li {
@@ -561,6 +506,9 @@ nav {
     color: #fafafa;
     padding: 0;
     margin: 0; }
+    @media only screen and (max-width: 958px) {
+      nav li {
+        display: none; } }
     nav li:hover {
       cursor: pointer;
       -webkit-transition: 1s;
@@ -569,7 +517,7 @@ nav {
       transition: 1s;
       color: #a58527; }
   nav .nav-title {
-    width: calc(33.33333% - 66.66667px);
+    width: calc(50% - 75px);
     float: left;
     margin-left: 50px; }
   nav .year {
@@ -614,7 +562,7 @@ nav {
   padding: 2%;
   border: 10px solid #238883; }
   .main .description h5, .main .description-2 h5 {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     background-color: #c9b99a;
@@ -659,7 +607,7 @@ body {
   opacity: 0.9;
   clear: both;
   background-color: #279791;
-  height: 40vh; }
+  height: 20vh; }
   .footer .footer-content {
     width: calc(100% - 100px);
     float: left;

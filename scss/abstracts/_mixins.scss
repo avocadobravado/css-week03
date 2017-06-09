@@ -33,6 +33,26 @@
     transition: 1s;
 }
 
+//Breakpoints
+
+@mixin xs-breakpoint {
+  @media #{$xs-bp} {
+    @content;
+  }
+}
+
+@mixin small-breakpoint {
+  @media #{$small-bp} {
+    @content;
+  }
+}
+
+@mixin medium-breakpoint {
+  @media #{$medium-bp} {
+    @content;
+  }
+}
+
 /// Event wrapper
 /// @author Harry Roberts
 /// @param {Bool} $self [false] - Whether or not to include current selector

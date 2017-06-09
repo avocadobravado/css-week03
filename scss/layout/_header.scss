@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 nav {
-  height: em(75);
+  height: em(90);
   background-color: $bg-color;
   border-bottom: em(7) solid $primary-color;
   box-shadow: 10px 10px 50px $tertiary-color;
@@ -33,20 +33,23 @@ nav {
     }
   }
   ul {
-    @include grid-column(4);
+    @include grid-column(3);
   }
  li {
     @include li-styles;
     color: $white;
     padding: 0;
     margin: 0;
+    @include medium-breakpoint {
+    display: none;
+    }
    &:hover {
      @include hover-effect;
       color:$secondary-color;
       }
     }
    .nav-title {
-    @include grid-column(4);
+    @include grid-column(6);
   }
   .year {
     color: $accent-color;

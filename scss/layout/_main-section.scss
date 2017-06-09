@@ -10,7 +10,7 @@
   padding: 2%;
   border: 10px solid shade($accent-color, 10%);
   .description h5 {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     @include align-text;
     background-color: tint($primary-color, 60%);

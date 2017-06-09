@@ -13,6 +13,11 @@ $bg-color: #211226;      // purple
 $accent-color: #279791; // blue
 
 
+// BREAKPOINTS
+
+$xs-bp: "only screen and (max-width: 600px)";
+$small-bp: "only screen and (max-width: 800px)";
+$medium-bp: "only screen and (max-width: 958px)";
 
 
 /// Regular font family
@@ -62,12 +67,6 @@ $max-width: 1180px !default;
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
-$breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
-) !default;
-
 
 
 
