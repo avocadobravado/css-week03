@@ -1,9 +1,9 @@
 // Main section styling
 
-main {
+.main {
   @include grid-column(8);
   @include grid-push(2);
-  @include clearfix;
+  background-color: thistle;
 }
 
 .main-gallery {

@@ -1,3 +1,22 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+
+body {
+  background-color: white;
+}
+
+.footer {
+  clear: both;
+  border: 1px solid salmon;
+  background-color: red;
+  height: 60vh;
+  .footer-content {
+    @include grid-column(12);
+    background-color: tomato;
+  }
+  p {
+      @include grid-column(6);
+  }
+}
