@@ -4,7 +4,9 @@
 
 nav {
   height: em(75);
-  background-color: thistle;
+  background-color: $bg-color;
+  border-bottom: em(7) solid $primary-color;
+  box-shadow: 10px 10px 50px $tertiary-color;
   color: white;
   overflow: hidden;;
   @include align-text;

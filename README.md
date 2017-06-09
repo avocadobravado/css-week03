@@ -40,18 +40,21 @@ OR...
 
 * HTML
 * CSS
+* SCSS
 
 **Other Technologies:**
 
-* Font Awesome
-* Google Fonts
+* Sass
+* Bourbon
+* Neat
 
 ## Acknowledgements
 
-* [Unsplash.com](http://unsplash.com) for the images
+* Hero image by [Laurent Durieux](http://www.laurentdurieux.com/)
+*
 
 ## License
 
 This project is licensed under the MIT License
 
-**_Rose Sponseller and PAIR_** Copyright (c) 2017
+**_Rose Sponseller_** Copyright (c) 2017

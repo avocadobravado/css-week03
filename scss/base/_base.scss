@@ -8,6 +8,11 @@ $neat-grid: (
   gutter: 50px,
 );
 
+
+body {
+  background:  url('../img/bg.gif');
+}
+
 /**
  * Set up a decent box model on the root element
  */

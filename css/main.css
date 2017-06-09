@@ -402,6 +402,9 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  background: url("../img/bg.gif"); }
+
 /**
  * Set up a decent box model on the root element
  */
@@ -493,7 +496,9 @@ body {
 
 nav {
   height: 4.6875em;
-  background-color: thistle;
+  background-color: #211226;
+  border-bottom: 0.4375em solid #775102;
+  box-shadow: 10px 10px 50px #c0a976;
   color: white;
   overflow: hidden;
   text-align: center; }
@@ -527,28 +532,18 @@ nav {
     border: 1px solid yellow; }
 
 .hero {
-  height: 75vh;
-  background: linear-gradient(paleturquoise, thistle), url("../img/hero.jpg") no-repeat;
+  opacity: 0.7;
+  background: linear-gradient(#775102, #363635), url("../img/hero.jpg") no-repeat;
   background-blend-mode: hue;
   background-size: cover;
+  background-position: center;
   margin-top: 0;
   padding: 0;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   position: relative;
-  text-align: center;
   margin: 0;
-  width: 100%;
-  position: relative; }
-  .hero::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 3.4375em;
-    position: absolute;
-    transform: skewY(-3deg);
-    background-color: white;
-    bottom: -25px; }
+  width: 100%; }
   .hero .hero-wrapper {
     margin-top: 20vh;
     width: calc(66.66667% - 83.33333px);
@@ -567,18 +562,28 @@ nav {
   float: left;
   margin-left: 50px;
   margin-left: calc(16.66667% - 58.33333px + 100px);
-  background-color: thistle; }
+  background-color: thistle;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 50px solid yellow; }
 
-.main-gallery .main-image {
-  border: 1px solid green;
-  width: 33.33%;
-  float: right; }
-.main-gallery img {
-  width: 100%;
-  height: 100%; }
+.main-gallery {
+  background-color: green;
+  border: 10px solid green;
+  width: calc(100% - 100px);
+  float: left;
+  margin-left: 50px; }
+  .main-gallery .main-image {
+    width: 33.33%;
+    float: right; }
+  .main-gallery img {
+    width: 100%;
+    height: 375px;
+    margin: 0;
+    padding: 0; }
 
 body {
-  background-color: white; }
+  background-color: #fafafa; }
 
 .footer {
   clear: both;
