@@ -19,12 +19,12 @@
 ## Setup/Installation Requirements
 
 * Open CMD/Terminal
-* git clone `https://github.com/avocadobravado/css-week-03`
+* git clone `https://github.com/avocadobravado/css-week03`
 * Open index.html file in a browser such as Google Chrome
 
 OR...
 
-* View on gh-pages at [https://avocadobravado.github.io/css-week-03](https://avocadobravado.github.io/css-week-03)
+* View on gh-pages at [https://avocadobravado.github.io/css-week03](https://avocadobravado.github.io/css-week03)
 
 ## Screenshot of Project
 
