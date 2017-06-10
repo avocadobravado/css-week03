@@ -6,15 +6,15 @@
 
 ## Description
 
-Nesting is no more than four levels deep
-Variables are used effectively
-At least one use of @extend
-Project is in a polished, portfolio-quality state
-Requirements are in place by 5:00pm Friday deadline
-At least one Bourbon @mixin or add-on
-At least one custom @mixin of your own  
-Page is responsive using Sass-style media queries and/or a grid
-Project architecture is well-organized and easy to understand (Feel free to customize the 7-1)
+* Nesting is no more than four levels deep
+* Variables are used effectively
+* At least one use of @extend
+* Project is in a polished, portfolio-quality state
+* Requirements are in place by 5:00pm Friday deadline
+* At least one Bourbon @mixin or add-on
+* At least one custom @mixin of your own  
+* Page is responsive using Sass-style media queries and/or a grid
+* Project architecture is well-organized and easy to understand (Feel free to customize the 7-1)
 
 ## Setup/Installation Requirements
 
