@@ -28,9 +28,9 @@ OR...
 
 ## Screenshot of Project
 
-![screenshot of project](https://github.com/avocadobravado/css-week-03/blob/master/img/scs.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/css-week03/blob/master/img/scs.png?raw=true)
 
-![screenshot of project](https://github.com/avocadobravado/css-week-03/blob/master/img/scs02.png?raw=true)
+![screenshot of project](https://github.com/avocadobravado/css-week03/blob/master/img/scs02.png?raw=true)
 
 ## How to Use
 
