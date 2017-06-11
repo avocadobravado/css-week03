@@ -6,6 +6,8 @@
 
 ## Description
 
+The objective of this assignment was to create a fan/tribute website with Sass, using the Bourbon and Neat Sass libraries with the criteria:
+
 * Nesting is no more than four levels deep
 * Variables are used effectively
 * At least one use of @extend
@@ -26,7 +28,7 @@ OR...
 
 * View on gh-pages at [https://avocadobravado.github.io/css-week03](https://avocadobravado.github.io/css-week03)
 
-## Screenshot of Project
+## Screenshots of the site
 
 ![screenshot of project](https://github.com/avocadobravado/css-week03/blob/master/img/scs.png?raw=true)
 
@@ -54,7 +56,6 @@ OR...
 
 **Other Technologies:**
 
-* Sass
 * Bourbon
 * Neat
 
